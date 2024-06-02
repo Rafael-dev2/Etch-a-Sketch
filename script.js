@@ -28,7 +28,9 @@ for(i = 0;i < input;i++){
         pixel.setAttribute("style","background-color: white;" + "width:"+str+"px;"+
             "height: "+str+"px;"+ 
             'display: inline-flex;'+
-            'align-self: center;'
+            'align-self: center;'+
+            'border: 1px solid gray;'+
+            'box-sizing: border-box;'
                      );
         pixel.setAttribute("id","pixel");
         line.appendChild(pixel);
@@ -37,7 +39,9 @@ for(i = 0;i < input;i++){
             "height: "+str+"px;"+
             'display: inline-flex;'+
             'align-self: center;'+ 
-            'text-color:red;'
+            'text-color:red;'+
+            'border: 1px solid gray;'+
+            'box-sizing: border-box;'
      );
     })
 }
